@@ -8,6 +8,7 @@ Personal portfolio and newsletter website built with Next.js.
 |---|---|
 | `/` | About me, experience, roadmap, and projects |
 | `/newsletter` | Personal blog posts with subsciption option via email |
+| `/readings` | List of articles, textbook sections, or book chapters I have recently read |
 
 ## Stack
 
@@ -28,6 +29,8 @@ src/
 │   ├── page.tsx              # Portfolio route (/)
 │   ├── newsletter/
 │   │   └── page.tsx          # Newsletter route (/newsletter)
+│   ├── readings/             # Readings route (/readings)
+│   │   └── page.tsx  
 │   └── api/
 │       ├── chat/
 │       │   └── route.ts      # POST /api/chat
@@ -37,5 +40,5 @@ src/
 │           └── route.ts      # POST /api/subscribe
 ├── components/               # Reusable UI components
 ├── lib/                      # DB client, helpers
-└── styles/                   # Global CSS
+└── assets/                   # Global Assets
 ```
