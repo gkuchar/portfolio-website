@@ -16,7 +16,7 @@ const schibsted = Schibsted_Grotesk({
 
 export const metadata: Metadata = {
   title: "Griffin Kuchar",
-  description: "Computer Science Student, AI and Machine Learning Researcher, Software and Systems Engineer, Tech Reader and Writer",
+  description: "Computer Science Student, AI and Machine Learning Researcher, Software and Systems Engineer, Technology Reader and Writer",
 };
 
 export default function RootLayout({
