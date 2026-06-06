@@ -20,7 +20,7 @@ export default function SectionNav() {
   return (
     <nav className="flex items-center gap-6">
       {navLinks.map((link) => (
-        <a key={link.href} href={link.href}>
+        <a key={link.href} href={link.href} className="btn-tertiary">
           {link.label}
         </a>
       ))}
