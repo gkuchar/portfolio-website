@@ -1,30 +1,70 @@
+"use client";
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import RotatingRole from "@/components/RotatingRole";
+import Image from "next/image";
+import heroImg from "@/assets/hero.png"
+import { motion } from "motion/react";
 
 export default function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-4 py-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
-            <p className="text-base text-foreground/60">welcome, my name is</p>
-            <h1 className="font-display text-8xl font-bold leading-none mt-2">
-                Griffin
-                <br />
-                Kuchar
-            </h1>
-            <p className="text-base text-foreground/60 mt-4">nice to meet you!</p>
-            <p className="text-3xl mt-8">
-            I am <span className=" text-4xl font-display font-bold">a builder</span>.
-            </p>
-            <p className="text-sm text-foreground mt-6 leading-relaxed max-w-prose">
-            I am a Senior at Texas Christian University (TCU) studying Computer Science,
-            Mathematics, and Economics, graduating in May 2027. I'm the product of
-            cultivating Machine Learning undergraduate research and CS tutoring with two
-            strong industry internships at AMD.
-            </p>
-            <p className="text-sm text-foreground mt-6 leading-relaxed max-w-prose">
-            At my core, I am a creator and a builder who sets and achieves his own goals: learning new skills, meeting new people,
-            and maturing as both a person and an engineer along the way.
-            </p>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="text-base text-foreground/60"
+            >
+              welcome, my name is
+            </motion.p>
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease: "easeOut" }}
+              className="font-display text-8xl font-bold leading-none mt-2"
+            >
+              Griffin
+              <br />
+              Kuchar
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="text-base text-foreground/60"
+            >
+              nice to meet you!
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6}}
+              className="text-3xl mt-8"
+            >
+              I am <RotatingRole />
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.0, delay: 0.7 }}
+              className="text-sm text-foreground mt-6 leading-relaxed max-w-prose"
+            >
+              A Senior at Texas Christian University (TCU) studying Computer Science,
+              Mathematics, and Economics, graduating in May 2027. I'm the product of
+              cultivating Machine Learning undergraduate research and CS tutoring with two
+              strong industry internships at AMD.
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.0, delay: 0.7 }}
+              className="text-sm text-foreground mt-6 leading-relaxed max-w-prose"
+            >
+              At my core, I am a creator and a builder who sets and achieves his own goals: learning new skills, meeting new people,
+              and maturing as both a person and an engineer along the way.
+            </motion.p>
             <div className="flex items-center gap-4 mt-8">
                 <a href="mailto:griffin.kuchar@gmail.com" className="btn-primary">
                     Let's Talk
@@ -49,9 +89,24 @@ export default function Hero() {
                 </a>
             </div>
         </div>
-        <div>
-          {/* right column: photo */}
-        </div>
+        <div className="flex justify-center">
+        <motion.div
+          className="relative"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[31rem] h-[31rem] rounded-full border-2 border-dashed border-foreground animate-spin-slow" />
+          <Image
+            src={heroImg}
+            alt="Griffin Kuchar"
+            width={400}
+            height={462}
+            className="rounded-lg relative border-4 border-foreground/80"
+            priority
+          />
+        </motion.div>
+      </div>
       </div>
     </section>
   );
