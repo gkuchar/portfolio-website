@@ -42,7 +42,7 @@ export default function Skills() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <FaCode
             size={112}
-            className="text-foreground transition-transform duration-300 hover:scale-110 cursor-pointer"
+            className="text-foreground transition-transform duration-300 hover:scale-110"
           />
         </div>
         </div>

@@ -102,7 +102,7 @@ export default function Hero() {
             alt="Griffin Kuchar"
             width={400}
             height={462}
-            className="rounded-lg relative border-4 border-foreground/80"
+            className="rounded-lg relative border-4 border-foreground/80 transition-transform duration-300 hover:scale-105"
             priority
           />
         </motion.div>
@@ -113,7 +113,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 1.0 }}
-        className="flex flex-col items-center gap-1 mt-8 w-fit mx-auto text-foreground/50"
+        className="flex flex-col items-center gap-1 mt-8 w-fit mx-auto text-foreground/50 transition-all duration-300 hover:scale-115 hover:text-foreground"
       >
         <span className="text-sm">scroll</span>
         <svg

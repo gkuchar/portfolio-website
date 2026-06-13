@@ -13,8 +13,8 @@ export default function About() {
           <div className="md:col-span-2">
             <p className="text-base text-foreground leading-relaxed max-w-prose">
                 I'm obsessed with systems-level architecture, agentic software design, and
-                real-world machine learning applications (especially in finance). As a result,
-                I cannot stop consuming (and now writing) articles surrounding these topics.
+                real-world machine learning applications (especially in social media and finance). As a result,
+                I cannot stop consuming (and now publishing) information surrounding these topics.
             </p>
             <p className="text-base text-foreground leading-relaxed max-w-prose mt-4">
                 Outside of engineering, I love fitness (primarily running and lifting), my dogs,
@@ -40,7 +40,7 @@ export default function About() {
                 <div className="absolute w-[14rem] h-[14rem] rounded-full border-2 border-dashed border-foreground/40 animate-spin-slow" />
                 <div className="absolute w-[10rem] h-[10rem] rounded-full border-2 border-dashed border-foreground/25 animate-spin-reverse" />
 
-                <div className="relative">
+                <div className="relative transition-transform duration-300 hover:scale-105">
                 <RotatingPhoto />
                 </div>
             </div>

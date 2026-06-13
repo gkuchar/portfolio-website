@@ -3,7 +3,7 @@ export const technical = {
   "ML / AI": ["PyTorch", "pandas", "NumPy", "scikit-learn", "OpenAI", "Claude", "Gemini", "CUDA", "Jupyter"],
   "Web / Backend": ["React", "Next.js", "Vue.js", "Node.js", "Spring Boot", "Flask", "Django", "FastAPI", "Tailwind CSS"],
   "Data / Cloud / DevOps": ["PostgreSQL", "MySQL", "AWS", "Azure", "Docker", "Linux", "Git", "Supabase", "Vercel"],
-  Tools: ["Figma", "JIRA", "Confluence"],
+  Tools: ["Figma", "Jira", "Confluence", "Slack", "Microsoft Office Suite", "Adobe Creative Suite"],
 };
 
 export const focusAreas = [
