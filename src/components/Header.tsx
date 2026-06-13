@@ -4,7 +4,7 @@ import BrandLink from "./BrandLink";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 bg-background/50 backdrop-blur-sm border-b border-foreground/10">
+    <header className="sticky z-50 top-0 bg-background/50 backdrop-blur-sm border-b border-foreground/10">
         <div className="max-w-7xl mx-auto flex items-center px-6 py-3">
             <div className="flex-1">
               <BrandLink />

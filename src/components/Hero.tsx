@@ -108,6 +108,23 @@ export default function Hero() {
         </motion.div>
       </div>
       </div>
+      <motion.a
+        href="#about"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 1.0 }}
+        className="flex flex-col items-center gap-1 mt-8 w-fit mx-auto text-foreground/50"
+      >
+        <span className="text-sm">scroll</span>
+        <svg
+          className="w-4 h-4 animate-bounce [animation-duration:1.5s]"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+      </motion.a>
     </section>
   );
 }
