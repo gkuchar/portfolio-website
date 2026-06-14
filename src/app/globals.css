@@ -56,3 +56,17 @@ html {
 section[id] {
   scroll-margin-top: 4rem;
 }
+
+:root {
+  --surface-dk: #e0d8c4;
+}
+@theme inline {
+  --color-surface-dk: var(--surface-dk);
+}
+
+:root {
+  --surface: #ece3cf;
+}
+@theme inline {
+  --color-surface: var(--surface);
+}

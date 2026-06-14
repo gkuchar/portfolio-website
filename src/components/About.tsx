@@ -14,23 +14,23 @@ export default function About() {
             <p className="text-base text-foreground leading-relaxed max-w-prose">
                 I'm obsessed with systems-level architecture, agentic software design, and
                 real-world machine learning applications (especially in social media and finance). As a result,
-                I cannot stop consuming (and now publishing) information surrounding these topics.
+                I cannot stop consuming (and soon publishing) information surrounding these topics.
             </p>
             <p className="text-base text-foreground leading-relaxed max-w-prose mt-4">
                 Outside of engineering, I love fitness (primarily running and lifting), my dogs,
                 the Spurs, and everything outdoors.
             </p>
-            <div className="mt-10">
-                <h3 className="font-display text-2xl font-bold mb-4">Roles I'm Most Interested In</h3>
-                <ul className="space-y-2">
-                    {roles.map((role) => (
-                    <li key={role} className="flex items-center gap-2 text-foreground/80">
-                        <span className="text-foreground/40">▹</span>
-                        {role}
-                    </li>
-                    ))}
-                </ul>
-                </div>
+            <div className="mt-10 bg-surface border border-foreground/15 rounded-2xl p-6 w-fit transition-all duration-300 hover:scale-105 hover:bg-surface-dk">
+              <h3 className="font-display text-2xl font-bold mb-4">Roles I'm Most Interested In</h3>
+              <ul className="space-y-2">
+                {roles.map((role) => (
+                  <li key={role} className="flex items-center gap-2 text-foreground/80">
+                    <span className="text-foreground/40">▹</span>
+                    {role}
+                  </li>
+                ))}
+              </ul>
+            </div>
             </div>
             <div className="md:col-span-1 flex justify-center">
             <div className="relative flex items-center justify-center">

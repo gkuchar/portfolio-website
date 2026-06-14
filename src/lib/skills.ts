@@ -2,7 +2,7 @@ export const technical = {
   Languages: ["Java", "Python", "C", "C++", "JavaScript", "TypeScript", "SQL"],
   "ML / AI": ["PyTorch", "pandas", "NumPy", "scikit-learn", "OpenAI", "Claude", "Gemini", "CUDA", "Jupyter"],
   "Web / Backend": ["React", "Next.js", "Vue.js", "Node.js", "Spring Boot", "Flask", "Django", "FastAPI", "Tailwind CSS"],
-  "Data / Cloud / DevOps": ["PostgreSQL", "MySQL", "AWS", "Azure", "Docker", "Linux", "Git", "Supabase", "Vercel"],
+  "Data / Cloud / DevOps": ["PostgreSQL", "MySQL","MongoDB", "AWS", "Azure", "Docker", "Linux", "Git", "Supabase", "Vercel"],
   Tools: ["Figma", "Jira", "Confluence", "Slack", "Microsoft Office Suite", "Adobe Creative Suite"],
 };
 
