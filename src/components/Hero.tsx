@@ -69,6 +69,14 @@ export default function Hero() {
                 <a href="mailto:griffin.kuchar@gmail.com" className="btn-primary">
                     Let's Talk
                 </a>
+                < a 
+                  href="/resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-secondary"
+                  >
+                    Resume
+                  </a>
                 <a
                     href="https://www.linkedin.com/in/griffin-kuchar/"
                     target="_blank"

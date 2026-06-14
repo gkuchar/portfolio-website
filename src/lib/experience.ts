@@ -2,7 +2,7 @@ export const experiences = [
   {
     company: "AMD",
     title: "Software Engineering Intern",
-    team: "Mobile Systems Team",
+    team: "Mobile Systems (SoC) Team",
     date: "May 2026 - August 2026",
     location: "Austin, Texas",
     bullets: [

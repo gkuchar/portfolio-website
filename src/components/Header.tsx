@@ -1,6 +1,7 @@
 import Link from "next/link"
 import SectionNav from "./SectionNav"
 import BrandLink from "./BrandLink";
+import ScrollProgress from "./ScrollProgress";
 
 export default function Header() {
   return (
@@ -20,6 +21,7 @@ export default function Header() {
                 </a>
             </div>
         </div>
+        <ScrollProgress />
     </header>
   );
 }
