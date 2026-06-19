@@ -7,7 +7,7 @@ export const experiences = [
     location: "Austin, Texas",
     bullets: [
       "Built a multi-agent AI automation tool adopted by 200+ engineers for first-level hardware debugging.",
-      "Expanded on prior validation tooling by implementing a multi-agent pipeline that autonomously downloads, analyzes, and root-causes hardware failures, cutting debug time by 80%.",
+      "Expanded on my prior validation tool by implementing a multi-agent pipeline that autonomously downloads, analyzes, and root-causes hardware failures, cutting debug time by 80%.",
     ],
     logo: "/logos/amd.png",
     url: "https://www.amd.com",

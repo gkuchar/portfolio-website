@@ -1,8 +1,8 @@
 export const technical = {
   Languages: ["Java", "Python", "C", "C++", "JavaScript", "TypeScript", "SQL"],
-  "ML / AI": ["PyTorch", "pandas", "NumPy", "scikit-learn", "OpenAI", "Claude", "Gemini", "CUDA", "Jupyter"],
+  "ML / AI": ["PyTorch", "pandas", "NumPy", "CuPy", "scikit-learn", "OpenAI", "Claude", "Gemini", "CUDA", "Jupyter"],
   "Web / Backend": ["React", "Next.js", "Vue.js", "Node.js", "Spring Boot", "Flask", "Django", "FastAPI", "Tailwind CSS"],
-  "Data / Cloud / DevOps": ["PostgreSQL", "MySQL","MongoDB", "AWS", "Azure", "Docker", "Linux", "Git", "Supabase", "Vercel"],
+  "Data / Cloud / DevOps": ["PostgreSQL", "MySQL","MongoDB", "Redis", "AWS", "Azure", "Docker", "Linux", "Git", "Supabase", "Vercel"],
   Tools: ["Jira", "Confluence", "Slack", "Figma", "Microsoft Office Suite", "Adobe Creative Suite"],
 };
 

@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-20">
+    <section className="max-w-7xl mx-auto px-4 py-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
             <motion.p
@@ -64,6 +64,14 @@ export default function Hero() {
             >
               At my core, I am a creator and a builder who sets and achieves his own goals: learning new skills, meeting new people,
               and maturing as both a person and an engineer along the way.
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.0, delay: 0.7 }}
+              className="text-sm text-foreground mt-6 leading-relaxed max-w-prose font-semibold"
+            >
+              I am currently searching for Summer 2027 internships before beginning my one-year Master's in Fall 2027.
             </motion.p>
             <div className="flex items-center gap-4 mt-8">
                 <a href="mailto:griffin.kuchar@gmail.com" className="btn-primary">
