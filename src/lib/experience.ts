@@ -6,7 +6,7 @@ export const experiences = [
     date: "May 2026 - August 2026",
     location: "Austin, Texas",
     bullets: [
-      "Built a multi-agent AI automation tool adopted by 200+ engineers for first-level hardware debugging.",
+      "Built a multi-agent AI automation tool adopted by 250+ engineers for first-level hardware debugging.",
       "Expanded on my prior validation tool by implementing a multi-agent pipeline that autonomously downloads, analyzes, and root-causes hardware failures, cutting debug time by 80%.",
     ],
     logo: "/logos/amd.png",
