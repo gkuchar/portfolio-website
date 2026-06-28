@@ -59,9 +59,12 @@ section[id] {
 
 :root {
   --surface-dk: #e0d8c4;
+  --school-circle: #a89c7d;
 }
+
 @theme inline {
   --color-surface-dk: var(--surface-dk);
+  --color-school-circle: var(--school-circle);
 }
 
 :root {
@@ -69,4 +72,30 @@ section[id] {
 }
 @theme inline {
   --color-surface: var(--surface);
+}
+
+.timeline-scroll {
+  scrollbar-width: thin;                    /* Firefox */
+  scrollbar-color: var(--foreground) transparent;  /* Firefox: thumb, track */
+}
+
+.timeline-scroll::-webkit-scrollbar {
+  height: 8px;                              /* horizontal scrollbar height */
+}
+
+.timeline-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.timeline-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--foreground);      /* charcoal thumb */
+  border-radius: 4px;
+}
+
+@keyframes bounce-x {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(25%); }
+}
+.animate-bounce-x {
+  animation: bounce-x 1.5s infinite;
 }

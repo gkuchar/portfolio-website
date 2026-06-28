@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Roadmap from "@/components/Roadmap";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      <Roadmap />
     </main>
   );
 }
