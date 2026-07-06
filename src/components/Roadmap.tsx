@@ -41,7 +41,7 @@ export default function Roadmap() {
           transition={{ duration: 0.6, delay: 0.3 }}
           style={{ cursor: "pointer" }}
         >
-          <span className="text-sm">scroll</span>
+          <span className="text-base">scroll</span>
           <svg
             className="w-4 h-4 animate-bounce-x"
             fill="none"

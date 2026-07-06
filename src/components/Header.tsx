@@ -4,6 +4,7 @@ import BrandLink from "./BrandLink";
 import ScrollProgress from "./ScrollProgress";
 
 export default function Header() {
+  const readings = false;
   return (
     <header className="sticky z-50 top-0 bg-background/50 backdrop-blur-sm border-b border-foreground/10">
         <div className="max-w-7xl mx-auto flex items-center px-6 py-3">
@@ -15,7 +16,7 @@ export default function Header() {
             </div>
             <div className="flex-1 justify-end flex items-center gap-6">
                 <Link href="/newsletter" className="btn-secondary">Newsletter</Link>
-                <Link href="/readings" className="btn-secondary">Readings</Link>
+                { readings &&  <Link href="/readings" className="btn-secondary">Readings</Link>} 
                 <a href="https://www.linkedin.com/in/griffin-kuchar" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 LinkedIn
                 </a>
