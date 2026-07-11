@@ -30,7 +30,7 @@ export default function Contact() {
         I'm always open to chatting and I love meeting new people. Whether it's for a role, a project, or just to talk about the latest trends in tech, feel free to shoot me an email or connect with me on LinkedIn!
       </p>
       <div className="flex items-center gap-4">
-        <a href="mailto:griffin.kuchar@gmail.com" className="btn-primary !text-xl !px-6 !py-4">Email Me</a>
+        <a href="mailto:griffin.kuchar@gmail.com" className="btn-primary text-lg px-32 py-3">Email Me</a>
         <a href="https://www.linkedin.com/in/griffin-kuchar/" target="_blank" rel="noopener noreferrer" className="btn-secondary text-lg px-32 py-3">LinkedIn</a>
       </div>
     </motion.div>

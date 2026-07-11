@@ -1,7 +1,7 @@
 export const experiences = [
   {
     company: "AMD",
-    title: "Software Engineering Intern",
+    title: "Systems Engineering Intern",
     team: "Mobile Systems (SoC) Team",
     date: "May 2026 - August 2026",
     location: "Austin, Texas",
@@ -43,12 +43,13 @@ export const experiences = [
 
   {
     company: "AMD",
-    title: "Hardware Engineering Intern",
+    title: "Validation Engineering Intern",
     team: "System Validation Team",
     date: "May 2025 - August 2025",
     location: "Austin, Texas",
     bullets: [
-      "Designed and executed stress-test and benchmarking workloads with 15+ unique components across 20+ systems simultaneously, validating AMD CPUs/APUs by catching defects before customer release.",
+      "Built a chatbot web application adopted by 20+ engineers that queries Jira tickets by translating plain-English into structured JQL via the OpenAI API, cutting ticket-searching time by 50%.",
+      "Designed and executed stress-test and benchmarking workloads with 15+ unique components across 20+ systems, validating AMD CPUs/APUs by catching defects before customer release.",
       "Identified and automated a debugging workflow bottleneck by architecting a JavaScript internal tool (later expanded into a multi-agent system), reducing manual debug time by 50% for 5+ engineers.",
     ],
     logo: "/logos/amd.png",

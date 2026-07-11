@@ -71,7 +71,7 @@ export default function Hero() {
               transition={{ duration: 1.0, delay: 0.7 }}
               className="text-sm text-foreground mt-6 leading-relaxed max-w-prose font-semibold"
             >
-              I am currently searching for Summer 2027 internships before beginning my one-year Master's in Fall 2027.
+              I am currently searching for Summer 2027 internships before beginning my Master's in Fall 2027.
             </motion.p>
             <div className="flex items-center gap-4 mt-8">
                 <a href="mailto:griffin.kuchar@gmail.com" className="btn-primary">

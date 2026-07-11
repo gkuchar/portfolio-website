@@ -17,7 +17,8 @@ export const values = [
 ];
 
 export const roles = [
-  "ML Engineer", "AI Engineer", "Data Engineer",
-  "Software Engineer (Full Stack, Backend, Frontend)",
+  "AI Engineer", "ML Engineer",
+  "Software Engineer",
+  "Data Engineer",
   "Firmware Engineer", "Systems Engineer",
 ];
