@@ -17,9 +17,14 @@ export default function Header() {
             <div className="flex-1 justify-end flex items-center gap-6">
                 <Link href="/newsletter" className="btn-secondary">Newsletter</Link>
                 { readings &&  <Link href="/readings" className="btn-secondary">Readings</Link>} 
-                <a href="https://www.linkedin.com/in/griffin-kuchar" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                LinkedIn
-                </a>
+                < a 
+                  href="/resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary"
+                  >
+                    Resume
+                  </a>
             </div>
         </div>
         <ScrollProgress />

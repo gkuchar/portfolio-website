@@ -6,8 +6,8 @@ export const experiences = [
     date: "May 2026 - August 2026",
     location: "Austin, Texas",
     bullets: [
-      "Built a multi-agent AI automation tool adopted by 250+ engineers for first-level hardware debugging.",
-      "Expanded on my prior validation tool by implementing a multi-agent pipeline that autonomously downloads, analyzes, and root-causes hardware failures, cutting debug time by 80%.",
+      "Developed an agentic AI automation tool adopted by 250+ engineers for first-level hardware debugging.",
+      "Expanded on my prior validation tool by implementing an agentic loop that autonomously downloads, analyzes, and root-causes hardware failures, cutting debug time by 80%.",
     ],
     logo: "/logos/amd.png",
     url: "https://www.amd.com",
@@ -20,8 +20,8 @@ export const experiences = [
     date: "January 2026 - Present",
     location: "Fort Worth, Texas",
     bullets: [
-      "Collaborated with TCU's nursing department and Children's Health Dallas to develop a Machine Learning PEWS model that detected patient decompensation 50% earlier on average.",
-      "Built the end-to-end ML pipeline, including data preprocessing, feature engineering, model training and evaluation, and hyperparameter optimization.",
+      "Collaborated with TCU's nursing department and Children's Health Dallas to develop a Machine Learning PEWS model that improved detection of pediatric patient decompensation.",
+      "Engineered the end-to-end ML pipeline, including data preprocessing, feature engineering, model training and evaluation, and hyperparameter optimization.",
     ],
     logo: "/logos/tcu.png",
     url: "https://www.nextgai.org",
@@ -48,7 +48,7 @@ export const experiences = [
     date: "May 2025 - August 2025",
     location: "Austin, Texas",
     bullets: [
-      "Built a chatbot web application adopted by 20+ engineers that queries Jira tickets by translating plain-English into structured JQL via the OpenAI API, cutting ticket-searching time by 50%.",
+      "Built a chat UI adopted by 20+ engineers that queries Jira tickets by translating plain-English into structured JQL via the OpenAI API, cutting ticket-searching time by 50%.",
       "Designed and executed stress-test and benchmarking workloads with 15+ unique components across 20+ systems, validating AMD CPUs/APUs by catching defects before customer release.",
       "Identified and automated a debugging workflow bottleneck by architecting a JavaScript internal tool (later expanded into a multi-agent system), reducing manual debug time by 50% for 5+ engineers.",
     ],
