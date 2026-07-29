@@ -37,9 +37,22 @@ export default function About() {
               Outside of engineering, I love fitness (primarily running and lifting), my dogs,
               the Spurs, and everything outdoors.
             </p>
-            
-            <div className="text-base text-sm text-foreground leading-relaxed max-w-prose mt-6">Currently Reading: <a href="https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design" className="underline italic font-normal" target="_blank" rel="noopener noreferrer">A Philosophy of Software Design</a>
+          
+            <div className="text-base text-sm text-foreground leading-relaxed max-w-prose mt-6">
+            <div>
+              Currently Reading:{" "}
+              <a href="https://use-the-index-luke.com/sql/table-of-contents" className="underline italic font-normal" target="_blank" rel="noopener noreferrer">
+                Use The Index, Luke
+              </a>
             </div>
+            <div>
+              Most Recently Finished:{" "}
+              <a href="https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design" className="underline italic font-normal" target="_blank" rel="noopener noreferrer">
+                A Philosophy of Software Design
+              </a>
+            </div>
+          </div>
+            
           </motion.div>
 
           {/* roles card */}
