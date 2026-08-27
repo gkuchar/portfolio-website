@@ -8,6 +8,7 @@ export const experiences = [
     bullets: [
       "Developed an agentic AI automation tool adopted by 250+ engineers for first-level hardware debugging.",
       "Expanded on my prior validation tool by implementing an agentic loop that autonomously downloads, analyzes, and root-causes hardware failures, cutting debug time by 80%.",
+      "Implemented Jira OAuth 2.0 integration and AMD OIDC SSO, improving the user experience by reducing the number of steps to sign in by 40%",
     ],
     logo: "/logos/amd.png",
     url: "https://www.amd.com",
@@ -29,12 +30,13 @@ export const experiences = [
 
   {
     company: "TCU",
-    title: "Computer Science Tutor",
+    title: "Computer Science Tutor, Teaching Assistant",
     team: "TCU CS Department",
-    date: "August 2025 - Present",
+    date: "August 2025 - August 2026",
     location: "Fort Worth, Texas",
     bullets: [
       "Tutored 60+ first- and second-year computer science students across three programming courses, improving assignment completion rates and boosting average exam performance by 10 points.",
+      "Provided programming, debugging, and problem-solving support for: COSC 10403 - Intro to Programming, COSC 10603 - Intro to Python for Data Analysis, and COSC 20203 - Techniques In Programming",
       "Presented to 50+ students as a guest speaker for TCU, sharing insights from my AMD internships and providing career guidance, resulting in 5+ students reaching out for mentorship and application guidance.",
     ],
     logo: "/logos/tcu_cs.png",
@@ -43,7 +45,7 @@ export const experiences = [
 
   {
     company: "AMD",
-    title: "Validation Engineering Intern",
+    title: "Validation/Debug Engineering Intern",
     team: "System Validation Team",
     date: "May 2025 - August 2025",
     location: "Austin, Texas",
