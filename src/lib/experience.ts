@@ -30,8 +30,8 @@ export const experiences = [
 
   {
     company: "TCU",
-    title: "Computer Science Tutor, Teaching Assistant",
-    team: "TCU CS Department",
+    title: "Undergraduate Teaching Assistant",
+    team: "TCU Computer Science Department",
     date: "August 2025 - August 2026",
     location: "Fort Worth, Texas",
     bullets: [
