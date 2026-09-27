@@ -51,8 +51,8 @@ export default function Hero() {
               transition={{ duration: 1.0, delay: 0.7 }}
               className="text-sm text-foreground mt-6 leading-relaxed max-w-prose"
             >
-              A Senior at Texas Christian University (TCU) studying Computer Science,
-              Mathematics, and Economics, graduating in May 2027. I'm the product of
+              A senior at Texas Christian University (TCU) studying Computer Science,
+              Mathematics, and Economics, graduating with a B.S. in May 2027. I'm the product of
               cultivating Machine Learning undergraduate research and CS tutoring with two
               strong industry internships at AMD.
             </motion.p>
@@ -71,7 +71,7 @@ export default function Hero() {
               transition={{ duration: 1.0, delay: 0.7 }}
               className="text-sm text-foreground mt-6 leading-relaxed max-w-prose font-semibold"
             >
-              I am currently searching for Summer 2027 internships before beginning my Master's in Fall 2027.
+              I am currently searching for Summer 2027 internships before beginning my master's in Fall 2027.
             </motion.p>
             <div className="flex items-center gap-4 mt-8">
                 <a href="mailto:griffin.kuchar@gmail.com" className="btn-primary">
