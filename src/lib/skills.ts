@@ -12,7 +12,7 @@ export const focusAreas = [
 ];
 
 export const values = [
-  "Leadership", "Ownership", "Mentorship", "Adaptability", "Goals-Driven", "Curious Learning",
+  "Leadership", "Ownership", "Mentorship", "Adaptability", "Goals-Driven", "Continuous Learning", "Positivity", "Creativity",
 ];
 
 export const roles = [
